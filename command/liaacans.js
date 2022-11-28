@@ -1439,19 +1439,7 @@ allmenu = `Hy Kak ${pushname}
 ├│${prefix}spamcall
 ├│${prefix}ssweb-pc
 ├│${prefix}infogempa
-├│${prefix}topupmenu
 ├│${prefix}tts
-├│${prefix}shopeepay
-├│${prefix}ovo
-├│${prefix}topupgame
-├│${prefix}listdmff
-├│${prefix}listdmml
-├│${prefix}listdmml2
-├│${prefix}buypulsa
-├│${prefix}topupff
-├│${prefix}topupml
-├│${prefix}topupml2
-├│${prefix}topupff2
 ├│${prefix}rules
 ├│${prefix}caraorder
 ├│${prefix}cekstatus
@@ -1552,7 +1540,7 @@ const sections = [
 	]
     },
 ]
-let menunyaa = `Menampilkan List Menu LiaaCans Bot
+let menunyaa = `Menampilkan List Menu Rel Botz
 
 Hai Kak ${pushname}
 *${ucapanWaktu}*
@@ -1575,8 +1563,8 @@ Note : Jangan Spam Bot Dan
 Call, Jika Tidak Ingin Di Block Bot`
 const listMessage = {
   text: menunyaa,
-  footer: "© Created By LiaaCans BOT",
-  title: "━━━[ LIST LIAACANS MENU ]━━━",
+  footer: "© Created By Rel Bot",
+  title: "━━━[ LIST Rel Bot MENU ]━━━",
   buttonText: "Klik Disini",
   sections
 }
@@ -1853,16 +1841,6 @@ mainmenu = `┌─❖ ⌜ Main Menu ⌟
 ├│${prefix}infogempa
 ├│${prefix}topupmenu
 ├│${prefix}tts
-├│${prefix}shopeepay
-├│${prefix}ovo
-├│${prefix}listdmff
-├│${prefix}listdmml
-├│${prefix}listdmml2
-├│${prefix}buypulsa
-├│${prefix}topupff
-├│${prefix}topupml
-├│${prefix}topupml2
-├│${prefix}topupff2
 ├│${prefix}rules
 ├│${prefix}caraorder
 ├│${prefix}cekstatus
@@ -1879,15 +1857,11 @@ case 'sc': case 'script': case 'sourcecode': {
 let kafloc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `${global.fake}`,jpegThumbnail: global.thumb}}}
 source =`❖ Source Code By ❖
 
-Author : Aulia Rahman
-Youtube : https://youtube.com/AuliaRahmanOfficial123
-Instagram : https://instagram.com/auliarahman_ckep
-Tiktok : https://tiktok.com/@liaacans'
-
-❖ Link Base Script ❖
-https://github.com/liaacans/base-device
+Author : Farel Arel
 
 Big Thanks To
+• Naufal
+• Ryan
 • Aulia Rahman
 • Zero YT7
 • Dhika Ardhiant
@@ -1896,7 +1870,7 @@ Big Thanks To
 • Allah S.W.T
 • Ortu
 • All Creator Bot
-• All Subscriber Ku`
+• Kalian`
 let buttons = [{ buttonId: 'menu', buttonText: { displayText: '️Back Menu' }, type: 1 },{ buttonId: 'ping', buttonText: { displayText: 'Status Bot' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'Owner' }, type: 1 }]
             await liaacans.sendButtonText(m.chat, buttons, source, creator, m, { quoted: kafloc })
             }
@@ -5998,7 +5972,7 @@ Bot gw jalan awokawoak
 Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
 
 Owner  BOTZ:
-wa.me/6285821676621
+wa.me/6282290452317
 `
              m.reply(rulesBot)
              break
@@ -6469,7 +6443,7 @@ m.reply( text1 + readmore + text2)
 break
 //---------------[ AUTO RESPON ]------------------//
 
-case 'rahman':{
+case 'Farel':{
 m.reply(`apasi manggil² owner bot? kangen ya??`)
 }
 break
