@@ -6402,7 +6402,7 @@ liaacans.sendMessage(m.chat, { image: {url: anu}, caption: 'Done!'}, {quoted:m})
 }
 break
 case 'sewabot':
-m.reply(`*SEWA LIAACANS BOT*
+m.reply(`*SEWA Rel BOT*
 
 *List Harga*
 Rp3.000 › 5day
