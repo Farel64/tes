@@ -31,17 +31,17 @@ global.APIKeys = {
 
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
 global.thumb = fs.readFileSync('./image/thumbnail.jpg') // JGN DI UBAH!
-global.name = 'Aulia Rahman (Owner)', // GNTI NAMA LU!
-global.creator = 'LiaaCans BOT' // GANTI NAMA BOT LU BANH!
-global.owner = ['6285821676621'] // GNTI NOMOR LU!
-global.premium = ['6285821676621', '6281528965381']
+global.name = 'Farel (Owner)', // GNTI NAMA LU!
+global.creator = 'Rel Bot' // GANTI NAMA BOT LU BANH!
+global.owner = ['6282290452317'] // GNTI NOMOR LU!
+global.premium = ['6282290452317', '6282290452317']
  // ADD PREM YG LU MAU BANH!!
 global.quotes = 'Kesempatan Anda Untuk Sukses Di Setiap Kondisi Selalu Dapat Diukur Oleh Seberapa Besar Kepercayaan Anda Pada Diri Sendiri' // Ganti Quotes, Tapi Trsrh Klian
-global.pulsa = ['081528965381'] // UBAH NOMOR YG AKTIF!
-global.botname = 'Created LiaaCans BOT' // GNTI NAMA BOT LU!
-global.packname = 'Nih Stikel Umtukmu' // TRSERAH MO GANTI AP!
-global.author = 'LiaaCans BOT' // GNTI NMA LU!
-global.fake = 'LIAACANS BOT VERIFIED' // GNTI NMA BOT LU BANH!
+global.pulsa = ['6282290452317'] // UBAH NOMOR YG AKTIF!
+global.botname = 'Created REL BOT' // GNTI NAMA BOT LU!
+global.packname = 'Farel Arel' // TRSERAH MO GANTI AP!
+global.author = 'Rel Bot' // GNTI NMA LU!
+global.fake = 'REL BOT VERIFIED' // GNTI NMA BOT LU BANH!
 // FITUR TOPUP OTOMATIS 
 global.hargadmff = 1261
 global.hargadmml = 1700
@@ -71,7 +71,7 @@ endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
 global.limitawal = {
 premium: "Unlimited",
-free: 10
+free: 20
 }
 
 let file = require.resolve(__filename)
